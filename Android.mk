@@ -20,9 +20,6 @@ ifneq ($(filter g3 d850 d851 d852 d855 ls990 vs985 f400, $(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
-#TESTING
-include $(call all-makefiles-under,$(LOCAL_PATH)/camera)
-
 include $(CLEAR_VARS)
 
 define vfatfilename

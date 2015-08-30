@@ -12,6 +12,10 @@ commonSharedLibraries := \
                         libutils \
                         libdl
 
+# Export cryptfs_hw.h for other modules
+LOCAL_COPY_HEADERS_TO := libcryptfs_hw
+LOCAL_COPY_HEADERS    := cryptfs_hw.h
+
 LOCAL_C_INCLUDES := $(commonIncludes)
 LOCAL_SRC_FILES := $(sourceFiles)
 

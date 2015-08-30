@@ -72,6 +72,7 @@ BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Display
+COMMON_GLOBAL_CPPFLAGS += -I$(OUT)/obj/include/qcom/display-caf-bfam
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true

@@ -63,6 +63,12 @@ done
 
 # Pick up overlay for features that depend on non-open-source files
 
+PRODUCT_PACKAGES += \\
+    libqcci_legacy \\
+    libqmi \\
+    libqmi_client_qmux \\
+    libqmiservices
+
 \$(call inherit-product, vendor/$VENDOR/$DEVICE/$DEVICE-vendor-blobs.mk)
 EOF
 

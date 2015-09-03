@@ -69,7 +69,7 @@ COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND=' \
 BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/
 
 # Crypto
-TARGET_HW_DISK_ENCRYPTION := true
+# TARGET_HW_DISK_ENCRYPTION := true
 
 # Display
 COMMON_GLOBAL_CPPFLAGS += -I$(OUT)/obj/include/qcom/display-caf-bfam
